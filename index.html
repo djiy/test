@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Users Table UI</h1>
+    <table>
+    
+        <tr>
+        <th class="noma">Utilisateur</th>
+        <th class="noma">Status</th>
+        <th class="noma">Location</th>
+        <th class="noma">Phone</th>
+        <th class="noma">Contact</th>
+        <th class="noma">Action</th>
+    </tr>
+</table>
+<table>
+    
+       <tr>
+        <td><img src="photos/images.jfif" >&nbsp;&nbsp;Abdou</td>
+        <td ><input type="color" class="col" id="exampleColorInput" 
+            value="#0C6E00" title="Choose your color">Actif
+        </td>
+        <td >Thies</td>
+        <td >774356723</td>
+        <td ><button class="cont">contact</button></td>
+        <td >
+            <details>
+                <summary>:</summary>
+                <button type="button" class="edit" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                   
+                 
+                    <i class="fa-solid fa-pen"></i>
+               
+                    Edit
+                   </button>
+               <button class="supp">
+                   
+                   <a href="index.html"> <i class="fa-solid fa-trash-can">&nbsp;&nbsp;Delete</i>
+                    
+               </button>
+            </a>
+         </td>
+        </details>
+    </tr>
+</table>
+<table>
+    <tr>
+     <td><img src="photos/images.jfif">&nbsp;&nbsp;Abdou</td>
+     <td ><input type="color" class="col" id="exampleColorInput" 
+        value="#E5AF06" title="Choose your color">Inactif
+    </td>
+     <td >Thies</td>
+     <td >774356723</td>
+     <td ><button class="cont">contact</button></td>
+     <td >
+        <details>
+            <summary>:</summary>
+           <button type="button" class="edit" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          
+                 <i class="fa-solid fa-pen"></i>
+               
+                 Edit
+                </button>
+                <button class="supp">
+                   
+                    <a href="index.html"> <i class="fa-solid fa-trash-can">&nbsp;&nbsp;Delete</i>
+                     
+                </button>
+             </a>
+          </td>
+         </details>
+      </td>
+   
+ </tr>
+</table>
+<table>
+    <tr>
+     <td><img src="photos/images.jfif">&nbsp;&nbsp;Abdou</td>
+     <td >
+        <input type="color" class="col" id="exampleColorInput" 
+        value="#0C6E00" title="Choose your color">Actif
+    </td>
+     <td >Thies</td>
+     <td >774356723</td>
+     <td ><button class="cont">contact</button></td>
+     <td >
+        <details>
+            <summary>:</summary>
+            <button type="button" class="edit"data-bs-toggle="modal" data-bs-target="#exampleModal">
+              
+                 <i class="fa-solid fa-pen"></i>
+                 Edit
+               
+                </button>
+                <button class="supp">
+                   
+                    <a href="index.html"> <i class="fa-solid fa-trash-can">&nbsp;&nbsp;Delete</i>
+                     
+                </button>
+             </a>
+          </td>
+         </details>
+      </td>
+   
+ </tr>
+</table>
+   
+<!-- Button trigger modal -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form class="row g-1">
+            <div class="col-md-4">
+              <label for="inputEmail4" class="form-label">Utilisateur</label>
+              <input type="text" class="form-control" id="inputEmail4" placeholder="Nom">
+            </div>
+            <select class="form-select" size="1" aria-label="size 1 select example">
+                <option selected>Actif</option>
+                
+                <option value="3">Inactif</option>
+              </select>
+            <div class="col-md-4">
+              <label for="inputAddress" class="form-label">Location</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="ville">
+            </div>
+            <div class="col-md-4">
+                <label for="inputAddress" class="form-label">Phone</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="+2211009090">
+              </div>
+              <div class="col-md-4">
+                <label for="inputAddress" class="form-label">Contact</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="">
+              </div>
+           
+            
+          </form>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-info"><a href="index.html">Save changes</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

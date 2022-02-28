@@ -1,0 +1,57 @@
+body{
+    background-color:rgb(176, 180, 184)!important
+}
+
+table{
+    margin: 1%;
+    margin-left:10%;
+    border-collapse: collapse;
+    width: 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+  td{
+    
+    padding: 37px;
+    background-color: honeydew!important;
+ 
+   
+  }
+  .noma{
+      background-color: rgb(176, 180, 184);
+      padding-left: 10px;
+  }
+  .cont{
+      background-color: rgb(8, 8, 184);
+      border-radius: 10% ;
+      border: blue;
+      color: white;
+  }
+  .col{
+      width: 10px;
+      height: 12px;
+      border: coral;
+      border-radius: 95%;
+  }
+.edit{
+    background-color: white;
+    border-radius: 10% ;
+    border: blue;
+    color: black;
+ }
+
+ .supp{
+   
+       background-color: white;
+        border-radius: 10% ;
+        border: blue;
+        color: red;
+    
+ }
+ a{
+     text-align: none;
+ }
+ img{
+    width:20%;
+     border-radius: 75%;
+ }
